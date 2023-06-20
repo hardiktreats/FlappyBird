@@ -128,7 +128,7 @@ void updatePipes() {
 void Name(){
     glColor3f(0.0, 0.0, 0.0);
     glRasterPos2i(10, 10);
-    string scoreStr = "FLAPPY BIRD\nHardikDhanjal-102003329\nShrey-102003208\nGurtaranSingh-102003220";
+    string scoreStr = "FLAPPY BIRD";
     for(int i = 0; i < scoreStr.length(); i++) {
         glutBitmapCharacter(GLUT_BITMAP_HELVETICA_18, scoreStr[i]);
     }
